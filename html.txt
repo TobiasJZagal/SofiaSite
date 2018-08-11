@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dokumentations site</title>
+    <link rel="stylesheet" href="Main.css">
+</head>
+
+<body>
+    
+    <div class="box">
+     <h1>
+        Dokumentations
+    </h1>
+        </div>
+    <div class="box2">
+    <h1>
+    Site
+        </h1>
+    </div>
+    <div class="moodbox">
+    <h2> Moodbord </h2>
+        </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="mainScript.js"></script>
+</body>
+
+</html>
