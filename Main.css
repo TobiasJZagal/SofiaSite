@@ -258,6 +258,13 @@ body{
 
 }
 
+.testBox{
+
+    background-color: aqua;
+    height: 10em;
+    width: 20em;
+}
+
 
 #HOm {
     font-size: 1.8em;
@@ -327,7 +334,25 @@ body{
     top: 0%;
 }
 
+.IPos2Test{
+
+
+     animation-name: test_kf ;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode:forwards;
+    transition: 1s;
+
+
+
+    top: 15%;
+}
 .IPos2{
+
+
+
+
+
     top: 15%;
 }
 
@@ -687,4 +712,26 @@ body{
 
 }
 
+
+
+
+@keyframes test_kf {
+
+    0%{
+
+        padding: 0em;
+
+
+
+
+    }
+
+
+
+    100% {
+        padding-left: 160em;
+
+    }
+
+}
 

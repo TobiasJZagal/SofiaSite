@@ -5,7 +5,16 @@ var sound = document.getElementById("walkSound");
 function sidenErLoadet () {
     console.log("siden er loaded");
 $("#StartKnapId").on("click", title);
+    $("#stop").on("click", stopknap);
 
+}
+
+
+function stopknap (){
+
+    $("#Cphdox").removeClass("IPos2Test")
+    $("#Cphdox").addClass("IPos2")
+     $("#stop").off("click", stopknap);
 }
 
 function title () {
