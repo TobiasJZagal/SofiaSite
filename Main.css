@@ -11,9 +11,35 @@ body{
     transition: 1s;
 }
 
-.color4{
-    background-color: white;
+.color5b{
+    position: absolute;
+    background: linear-gradient(rgb(255, 255, 255,1) 25%,rgba(28, 181, 224,1)35%, rgba(0, 8, 81,1) 100%);
+   opacity: 1;
+
+
+    transition: all 1s;
 }
+
+.color4{
+    position: absolute;
+   background: linear-gradient(rgb(255, 255, 255,1) 1%,rgba(28, 181, 224,1) 37%, rgba(0, 8, 81,1) 100%);
+    background: linear-gradient(rgba(28, 181, 224,1) 20%, rgba(0, 8, 81,1) 75%);
+    opacity: 1;
+    transition: all 1s;
+}
+
+.color5{
+    position: absolute;
+    background: linear-gradient(rgb(255, 255, 255,1) 25%,rgba(28, 181, 224,1)35%, rgba(0, 8, 81,1) 100%);
+
+    opacity: 1;
+
+    transition: all 1s;
+}
+
+
+
+
 
 
 
@@ -46,16 +72,18 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     overflow: hidden;
     transition: 1s;
 }
-
 #frontpagebox{
 
-    border-radius: 7px;
-    margin: 2em;
 
-    height: 50vw;
-    background-color: #fdfdfd;
+    height: 55vw;
 
+    position: relative;
+
+    overflow: hidden;
+    transition: 1s;
 }
+
+
 
 
 .boxshadow{
@@ -63,24 +91,36 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
 
 }
 
+.SwimEnd{
+
+    padding-top: 10em;
+    transition: all 1s;
+}
+
+.SwimStart{
+
+    padding-top: 1em;
+    transition: all 1s;
+}
+
 .frontstyle{
-    font-size: 1.2em;
+    font-weight: 900;
+    margin-left: 1em;
+    margin-top: 0em;
+    font-size: 4em;
     font-weight: 500;
     font-family: sans-serif;
-    left: 13%;
-    top: 12%;
-    position: absolute;
+
+
     transition: 1s;
 }
 
 .frontText {
-    font-size: 2em;
+    margin-bottom: 0em;
+    font-size: 5em;
     font-family: sans-serif;
-    width: 30vw;
-    height: 40vw;
-    position: absolute;
-    left: 10%;
-    top: 30%;
+
+
     transition: 1s;
     z-index: 3;
 }
