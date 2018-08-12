@@ -20,12 +20,24 @@ function stopknap (){
 $("#frontpage").mouseover(
 function frontpageEffect() {
      console.log("lel");
+
+
+    $("#Sub").removeClass("SubPos1");
+    $("#Sub").addClass("SubPos2");
     $("#frontpagebox").removeClass("color5");
 
     $("#textSwim").removeClass("SwimStart");
      $("#textSwim").addClass("SwimEnd");
 
+    $("#Sub").on("animationend", showOm)
 
 }
     );
 
+function showOm () {
+
+    $("#IdOmTextBox").removeClass("OmHide");
+    $("#IdOmTextBox").addClass("OmShow");
+    $("#IdOmImgBox").removeClass("OmHide");
+    $("#IdOmImgBox").addClass("OmShow");
+}
