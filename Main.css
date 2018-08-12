@@ -370,50 +370,6 @@ body{
 }
 
 
-.IPos1{
-    top: 0%;
-}
-
-.IPos2Test{
-
-
-     animation-name: test_kf ;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    animation-fill-mode:forwards;
-    transition: 1s;
-
-
-
-    top: 15%;
-}
-.IPos2{
-
-
-
-
-
-    top: 15%;
-}
-
-.IPos3{
-    top: 30%;
-}
-
-
-.IPos4{
-    top: 45%;
-}
-
-
-.IPos5{
-    top: 60%;
-}
-
-
-.IPos6{
-    top: 75%;
-}
 
 
 .left img {
