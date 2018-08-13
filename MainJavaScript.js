@@ -3,7 +3,8 @@ $(window).on("load", sidenErLoadet);
 
 function sidenErLoadet() {
     console.log("klar");
-    $("#stop").on("click", stopknap);
+    $("#knapSub").on("click", stopknap);
+    $("#knapSub2").on("click", stopknap);
     frontpageEffect();
 
 }
@@ -11,9 +12,11 @@ function sidenErLoadet() {
 
 function stopknap (){
     console.log("knap");
-    $("#Cphdox").removeClass("IPos2Test")
-    $("#Cphdox").addClass("IPos2")
-     $("#stop").off("click", stopknap);
+
+    $("#Sub").removeClass("SubPos1");
+    $("#Sub").addClass("SubPos2");
+    $("#knapSub2").off("click", stopknap);
+     $("#knapSub").off("click", stopknap);
 }
 
 
@@ -22,8 +25,7 @@ function frontpageEffect() {
      console.log("lel");
 
 
-    $("#Sub").removeClass("SubPos1");
-    $("#Sub").addClass("SubPos2");
+
     $("#frontpagebox").removeClass("color5");
 
     $("#textSwim").removeClass("SwimStart");
@@ -36,6 +38,8 @@ function frontpageEffect() {
 
 function showOm () {
 
+    $("#SeaWeed").removeClass("seaWeedHidden")
+    $("#SeaWeed").addClass("seaWeed")
     $("#IdOmTextBox").removeClass("OmHide");
     $("#IdOmTextBox").addClass("OmShow");
     $("#IdOmImgBox").removeClass("OmHide");
